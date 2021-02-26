@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Description>Simplifies accessing the local AppData folder of the application.</Description>
+    <Copyright>Elias Youssef</Copyright>
+    <PackageTags>AppData, Local AppData, Configurations, Config</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Elias Youssef</Authors>
+    <Company>Elias Youssef</Company>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+</Project>
