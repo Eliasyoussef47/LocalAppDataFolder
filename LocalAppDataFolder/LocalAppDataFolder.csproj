@@ -9,6 +9,8 @@
     <Authors>Elias Youssef</Authors>
     <Company>Elias Youssef</Company>
     <Version>1.0.3</Version>
+    <PackageDescription>Simplifies accessing the local AppData folder of the application.</PackageDescription>
+    <RepositoryUrl>https://github.com/Eliasyoussef47/LocalAppDataFolder</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
