@@ -14,7 +14,7 @@ jobs:
     - name: Setup .NET Standard
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 2.0
+        dotnet-version: 2.1
     - name: Create NuGet Package
       run: dotnet pack -c Release /p:Version=${{ github.event.release.tag_name }} /p:PackageReleaseNotes="See https://github.com/Eliasyoussef47/LocalAppDataFolder/releases/tag/${{ github.event.release.tag_name }}"
       working-directory: ./LocalAppDataFolder      
