@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworks>netstandard2.1;net48</TargetFrameworks>
     <Description>Simplifies accessing the local AppData folder of the application.</Description>
     <Copyright>Elias Youssef</Copyright>
     <PackageTags>AppData, Local AppData, Configurations, Config</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Elias Youssef</Authors>
     <Company>Elias Youssef</Company>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <PackageDescription>Simplifies accessing the local AppData folder of the application.</PackageDescription>
     <RepositoryUrl>https://github.com/Eliasyoussef47/LocalAppDataFolder</RepositoryUrl>
+    <PackageReleaseNotes>Added support for .NET Framework 4.8</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
